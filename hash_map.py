@@ -1,7 +1,7 @@
 class MyHashMap(object):
     
     def __init__(self):
-        self.length = 5
+        self.length = 11
         self.hash_map = [None] * self.length
         self.occupancy = 0
 
