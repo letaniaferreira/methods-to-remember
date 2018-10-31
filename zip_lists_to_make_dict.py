@@ -19,3 +19,16 @@ def animals(animals_name, animals_type):
 
 
 animals(['ziggy', 'melo', 'dandi'], ['canary', 'dog', 'bear'])
+
+
+#another use for the zip method
+def finder(arr1, arr2):
+    arr1.sort()
+    arr2.sort()
+
+    for num, n in zip(arr1, arr2):
+        if num != n:
+            return num
+
+result = finder([1, 2, 3, 4, 5, 6, 7], [3, 7, 2, 1, 4, 6])
+print(result)
