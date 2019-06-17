@@ -20,8 +20,14 @@ class Node():
     def get_left_node(self):
         return self.left
 
+    def get_right_node(self):
+        return self.right
+
     def set_left_node(self, value):
-        self.left
+        self.left = value
+
+    def set_right_node(self, value):
+        self.right = value
 
 
     def __repr__(self):
