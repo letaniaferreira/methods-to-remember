@@ -50,17 +50,14 @@ class Stack():
         return self.items.__repr__()
 
 
-# class Tree():
-#
-#     def __init__(self):
-#         self.root = None
-#         self.items = Stack()
-#
-#     def has_left_node(self):
-#         if self.root == None:
-#             return False
-#         node = self.root
-#         return node.left != None
+class Tree():
+
+    def __init__(self, value=None):
+        self.root = Node(value)
+
+
+    def get_root(self):
+        return self.root
 
 
 
