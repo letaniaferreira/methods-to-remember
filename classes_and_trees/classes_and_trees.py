@@ -66,4 +66,19 @@ class Tree():
         return self.root
 
 
+def navigate_tree():
+    tree = Tree()
+    stack = Stack()
+    visited = []
+
+    node = tree.get_root()
+    stack.append(node)
+    if node.has_left_node():
+        stack.append(node.get_left_node())
+    if node.has_right_node():
+        stack.append(node.has_right_node())
+    visited.append(node)
+    stack.pop()
+
+
 
