@@ -1,9 +1,9 @@
 class Account:
 
-    def __init__(self, user, pin, number):
+    def __init__(self, user, pin, account_number):
         self.user = user
         self.pin = pin
-        self.number = number
+        self.account_number = account_number
         self.balance = 0
 
     def check_balance(self):
