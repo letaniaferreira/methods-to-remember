@@ -17,5 +17,13 @@ class Bank:
             return self.account[account_number]
         else:
             return 'Account {} not found'.format(account_number)
-    #
-    # def close_account(self):
+
+    def close_account(self, account_number):
+        """Delete account"""
+        if account_number in self.account:
+            print('Are you sure you want to delete account {}?'.format(account_number))
+            del self.account[account_number]
+            return self.account
+
+        else:
+            return 'Account {} not found'.format(account_number)

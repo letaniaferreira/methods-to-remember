@@ -21,3 +21,13 @@ class TestBank(TestCase):
         b1 = Bank()
         b1.create_account(1234)
         self.assertEqual(b1.get_account(1234), 1234)
+
+    def test_cannot_close_account(self):
+        b1 = Bank()
+        b1.create_account(1234)
+        self.assertEqual(b1.close_account(1236), 'Account 1236 not found')
+
+    def test_close_account(self):
+        b1 = Bank()
+        b1.create_account(1234)
+        self.assertEqual(b1.close_account(1234), {})
