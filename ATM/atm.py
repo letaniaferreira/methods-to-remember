@@ -12,11 +12,3 @@ class AtmTransaction:
 
     def check_balance(self):
         return self.balance
-
-
-t_1 = AtmTransaction()
-print(t_1.balance)
-t_1.make_a_deposit(50)
-print(t_1.balance)
-t_1.make_a_withdrawal(30)
-print(t_1.balance)
