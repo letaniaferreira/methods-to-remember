@@ -4,9 +4,9 @@ Este projeto contém alguns exercícios usando diferentes métodos que quero man
 
 Segue a lista dos tópicos usados nesse repo: (Descreva as estruturas que vc aprendeu e está usando nessa projeto)
 
-Dicionários\
-Matrizes\
-Unpacking, etc.
+-Dicionários\
+-Matrizes\
+-Unpacking, etc.
 
 # Uso (O que preciso ter instalado na minha máquina pra rodar esse projeto e quais os pasos pra rodar)
 
